@@ -48,7 +48,7 @@
     background-color: #741313;
 	border-radius: 0.26vw;
 }
-
+/*loading screen*/
 .loader {
     width: 140px;
     height: 200px;
@@ -56,8 +56,8 @@
     position: relative;
     background-color: #fff;
     background-image: url(beaj.png);
-    top: 35%;
-    left: 47%;
+    top: 35vh;
+    left: 46vw;
   }
 .loader--hidden {
 	opacity: 0;
@@ -117,6 +117,7 @@
         transform: translateY(3px);
     }
 }
+/*viewport*/
 @media (max-width: 1280px) {
     .topnav {
         margin-left: -10vh;
@@ -175,6 +176,10 @@
         margin-left: 43vw;
         margin-right: 100vw;
     }
+    .loader {
+        left: 30vw;
+    }
+
 }
 @media (max-width: 430px) {
     .topnav {
@@ -204,4 +209,20 @@
         margin-right: 100vw;
     }
 }
+@media (max-width: 375px) and (max-height: 812px) {
+    .topnav img {
+        margin-left: 40vw;
+    }
+}
+@media (width: 390px) and (height: 844px) {
+    .topnav img {
+        margin-left: 40vw;
+    }
+}
+@media (width: 414px) and (height: 896px) {
+    .topnav img {
+        margin-left: 42vw;
+    }
+}
+
 

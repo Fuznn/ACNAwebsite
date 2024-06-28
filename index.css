@@ -45,8 +45,8 @@
 	border-radius: 0.26vw;
 	}
 .loader {
-    width: 7.49vw;
-    height: 21.49vh;
+    width: 140px;
+    height: 200px;
     display: block;
     position: relative;
     background-color: #fff;

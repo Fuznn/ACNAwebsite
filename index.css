@@ -1,0 +1,114 @@
+/*Nav Bar*/
+.topnav {
+	display: inline-block;
+	background-color: white;
+	margin-top: -10px;
+	margin-bottom:20%;
+	margin-left: -1%;
+	width: 101%;
+	font-family: Georgia,Times,Times New Roman,serif; 
+	position: fixed;
+	z-index: 1000;
+	}
+	
+.topnav img {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 15%;
+	position: sticky;
+	}
+	
+.topnav a {
+	float: left;
+	color: #000000;
+	text-align: center;
+	padding: 14px 25px;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 45px;
+	margin-left: 8%;
+	position: sticky;
+	}
+			
+.topnav a:hover {
+	background-color: #ddd;
+	border-radius: 5px;
+	color: #000000;
+	}
+				
+.topnav a.active {
+	color: #000000;
+	font-weight: 600;
+    background-color: #ddd;
+	border-radius: 5px;
+	}
+.loader {
+    width: 140px;
+    height: 200px;
+    display: block;
+    position: relative;
+    background-color: #fff;
+    background-image: url(beaj.png);
+    top: 35%;
+    left: 47%;
+  }
+.loader--hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+.loader::before {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    right: 60%;
+    border-top: 20px solid #000;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    animation: animate infinite 3s linear;
+}
+.loader::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    border-top: 20px solid #000;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    animation: animate1 infinite 3s linear;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(-3px) rotate(180deg);
+    }
+    25%{
+        transform: translateY(8px) rotate(180deg);
+    }
+    50%{
+        transform: translateY(1px) rotate(180deg);
+    }
+    75%{
+        transform: translateY(-50px) rotate(180deg);  
+    }
+    100%{
+        transform: translateY(-3px) rotate(180deg);
+    }
+}
+@keyframes animate1 {
+    0%{
+        transform: translateY(3px);
+    }
+    25%{
+        transform: translateY(-8px);
+    }
+    50%{
+        transform: translateY(-1px);
+    }
+    75%{
+        transform: translateY(50px);  
+    }
+    100%{
+        transform: translateY(3px);
+    }
+}

@@ -2,20 +2,21 @@
 .topnav {
 	display: inline-block;
 	background-color: white;
-	margin-top: -10px;
-	margin-bottom:20%;
-	margin-left: -1%;
-	width: 101%;
+	margin-top: -0.8vh;
+	margin-bottom: 20vh;
+	margin-left: -1.6vh;
+	width: 100vw;
 	font-family: Georgia,Times,Times New Roman,serif; 
 	position: fixed;
 	z-index: 1000;
+    border-bottom: 0.3vh solid #441616;
 	}
 	
 .topnav img {
 	float: left;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 15%;
+	margin-top: 1.852vh;
+	margin-bottom: 1.852vh;
+	margin-left: 15vw;
 	position: sticky;
 	}
 	
@@ -23,17 +24,17 @@
 	float: left;
 	color: #000000;
 	text-align: center;
-	padding: 14px 25px;
+	padding: 0.77vw 1.35vw;
 	text-decoration: none;
-	font-size: 20px;
-	margin-top: 45px;
-	margin-left: 8%;
+	font-size: 125%;
+	margin-top: 4.167vh;
+	margin-left: 8vw;
 	position: sticky;
 	}
 			
 .topnav a:hover {
 	background-color: #ddd;
-	border-radius: 5px;
+	border-radius: 0.26vw;
 	color: #000000;
 	}
 				
@@ -41,11 +42,11 @@
 	color: #000000;
 	font-weight: 600;
     background-color: #ddd;
-	border-radius: 5px;
+	border-radius: 0.26vw;
 	}
 .loader {
-    width: 140px;
-    height: 200px;
+    width: 7.49vw;
+    height: 21.49vh;
     display: block;
     position: relative;
     background-color: #fff;
